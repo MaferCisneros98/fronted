@@ -1,0 +1,12 @@
+<app-menu></app-menu>
+<div class="container">
+    <div class="jumbotron">
+        <h2 class="display-4" *ngIf= "!isLogged"> Hola visitante</h2>
+        <h2 class="display-4" *ngIf= "isLogged"> Hola {{userLogged.name}}</h2>
+
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p></p>
+        
+    </div>
+</div>
